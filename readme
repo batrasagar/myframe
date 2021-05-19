@@ -1,0 +1,40 @@
+adonis new server --api-only
+
+adonis serve --help
+
+cd server
+adonis serve --dev
+
+adonis make:controller User
+-> http controller
+
+npm install sqlite3 --save
+
+adonis migration:run
+
+adonis make:model Project -m
+    -- write migration code --
+
+adonis migration:run
+
+adonis make:controller Project
+
+adonis make:exception InvalidAccess
+
+adonis make:model Task -m
+
+adonis migration:refresh  // incase any change in table (drop/create)--
+
+--------------------------------------------------------------------
+vue create client
+
+cd client
+
+npm i @vue/cli-service
+
+yarn add axios loadash vuetify vuex-persistedstate vuex-router-sync
+
+
+--incase install bootstrap 
+    npm install vue bootstrap bootstrap-vue
+
