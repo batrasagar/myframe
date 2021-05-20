@@ -33,24 +33,24 @@ export const menuItems = [
              },
            ],
          },
-         {
-           id: 14,
-           label: 'Orders',
-           icon: 'ri-mail-send-line',
-           subItems: [
-             {
-               id: 8,
-               label: 'Orders',
-               link: 'orders',
-             },
-             {
-               id: 9,
-               label: 'Receipts',
-               link: 'receipts',
-             },
+        //  {
+        //    id: 14,
+        //    label: 'Orders',
+        //    icon: 'ri-mail-send-line',
+        //    subItems: [
+        //      {
+        //        id: 8,
+        //        label: 'Orders',
+        //        link: 'orders',
+        //      },
+        //      {
+        //        id: 9,
+        //        label: 'Receipts',
+        //        link: 'receipts',
+        //      },
              
-           ],
-         },
+        //    ],
+        //  },
          {
            id: 21,
            label: 'logout',

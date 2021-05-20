@@ -11,6 +11,7 @@ export default {
   data() {
     return {
       email: "",
+      isAuthError : false,
       password: "",
       submitted: false,
     };

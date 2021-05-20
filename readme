@@ -26,15 +26,12 @@ adonis make:model Task -m
 adonis migration:refresh  // incase any change in table (drop/create)--
 
 --------------------------------------------------------------------
-vue create client
+echo "# myframe" >> README.md
 
-cd client
-
-npm i @vue/cli-service
-
-yarn add axios loadash vuetify vuex-persistedstate vuex-router-sync
-
-
---incase install bootstrap 
-    npm install vue bootstrap bootstrap-vue
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:batrasagar/myframe.git
+git push -u origin main
 

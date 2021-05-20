@@ -20,24 +20,7 @@ export default {
           icon: "ri-briefcase-4-line",
           value: "img3",
           subvalue: " 2.4% "
-        },{
-          title: "Number of Sales",
-          icon: "ri-stack-line",
-          value: "1452",
-          subvalue: " 2.4% "
-        },
-        {
-          title: "Sales Revenue",
-          icon: "ri-store-2-line",
-          value: "$ 38452",
-          subvalue: " 2.4% "
-        },
-        {
-          title: "Average Price",
-          icon: "ri-briefcase-4-line",
-          value: "$ 15.4",
-          subvalue: " 2.4% "
-        }
+        } 
       ]
     };
   }
